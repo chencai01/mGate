@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Auto start program
+mcfg /disk/mpt/ &
+mio /disk/mpt/dnp3 /disk/mpt/iec104 &

@@ -1,0 +1,22 @@
+
+[DNP3 Protocol]
+dnp3:dc1	# ON    CHANNEL
+dnp3:dd1	# ON    DEVICE
+dnp3:dap1	# ON    APP LAYER
+dnp3:dtr1	# ON    TRANS LAYER
+dnp3:ddl1	# ON    LINK LAYER
+dnp3:dc0	# OFF   CHANNEL
+dnp3:dd0	# OFF   DEVICE
+dnp3:dap0	# OFF   APP LAYER
+dnp3:dtr0	# OFF   TRANS LAYER
+dnp3:ddl0	# OFF   LINK LAYER
+dnp3:d0		# OFF   ALLs
+[IEC104 Protocol]
+iec104:1	# ON    PHYSIC LAYER
+iec104:2	# ON    LINK LAYER
+iec104:3	# ON    APP LAYER
+iec104:4	# ON    ALLs
+iec104:0	# OFF   ALLs
+[System]
+sys:start	# START mGate
+sys:stop	# STOP  mGate
